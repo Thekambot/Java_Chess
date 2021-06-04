@@ -1,6 +1,6 @@
-package game;
+package game.gui;
 
-import board.ChessBoard;
+import logic.board.ChessBoard;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,9 +1,8 @@
-package figure;
+package logic.pieces;
 
-import board.Square;
-import chess.Player;
+import logic.players.Player;
 
-public abstract class Figure {
+public abstract class Piece {
 
     public enum FigureType {
         KING, QUEEN, BISHOP, KNIGHT, ROOK, PAWN
@@ -17,12 +16,12 @@ public abstract class Figure {
 
     private Player owner;
 
-    Figure(FigureType type, FigureColor color) {
+    Piece(FigureType type, FigureColor color) {
         this.figureType = type;
         this.figureColor = color;
     }
 
-    Figure(Player player, FigureType type, FigureColor color) {
+    Piece(Player player, FigureType type, FigureColor color) {
         this.owner = player;
         this.figureType = type;
         this.figureColor = color;

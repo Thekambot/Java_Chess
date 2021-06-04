@@ -1,6 +1,5 @@
-package icons;
+package game.gui.icons;
 
-import myenums.AllEnums;
 import org.jetbrains.annotations.NotNull;
 
 import javax.imageio.ImageIO;
@@ -9,7 +8,7 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 
-public class FigureImage {
+public class FigureIcons {
 
     private static final String IMG_PATH = "Img\\chess.png";
     private static final int FIGURE_SIZE = 200;

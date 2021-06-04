@@ -1,11 +1,8 @@
-package figure;
+package logic.pieces;
 
-import chess.Player;
-import icons.FigureImage;
+import logic.players.Player;
 
-import java.awt.*;
-
-public class Pawn extends Figure {
+public class Pawn extends Piece {
 
 
     Pawn(FigureType type, FigureColor color) {

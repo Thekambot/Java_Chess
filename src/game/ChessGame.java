@@ -1,16 +1,14 @@
 package game;
 
-import board.ChessBoard;
-import sun.font.TrueTypeFont;
-
-import javax.swing.*;
-import java.awt.*;
+import logic.board.ChessBoard;
+import game.gui.BoardPanel;
+import game.gui.GameFrame;
 
 public class ChessGame {
 
     public static void main(String[] args) {
 
-        ChessFrame frame = new ChessFrame();
+        GameFrame frame = new GameFrame();
         frame.setBounds(10, 10, 64 * 8 + 16, 64 * 8 + 38);
         frame.setResizable(false);
 

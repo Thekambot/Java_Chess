@@ -1,4 +1,4 @@
-package chess;
+package logic.players;
 
 public interface Player {
 }

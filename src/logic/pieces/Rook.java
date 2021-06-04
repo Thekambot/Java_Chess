@@ -1,4 +1,4 @@
-package figure;
+package logic.pieces;
 
 public class Rook {
 }
